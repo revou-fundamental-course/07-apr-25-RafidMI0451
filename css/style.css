@@ -1,0 +1,27 @@
+.main-header
+    {
+        display: flex;
+    }
+
+.main-logo
+    {
+        height: 50px;
+        width: 50px;
+        background-image: url(https://picsum.photos/200/300.webp);
+        background-size: cover;
+        background-position: center;
+        border-radius: 50%;
+    }
+
+.banner-image
+    {
+        height: 400px;
+        background-image: url(https://picsum.photos/200/300.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+footer
+    {
+        text-align: center;
+    }
