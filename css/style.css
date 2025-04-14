@@ -1,6 +1,9 @@
 .main-header
     {
         display: flex;
+        background-color: lightskyblue; 
+        border: 3px solid;
+        border-color: tomato;
     }
 
 .main-logo
@@ -15,7 +18,8 @@
 
 .banner-image
     {
-        height: 400px;
+        width: 1366px;
+        height: 768px;
         background-image: url(https://picsum.photos/200/300.webp);
         background-size: cover;
         background-position: center;
@@ -23,5 +27,5 @@
 
 footer
     {
-        text-align: center;
+        text-align: end;
     }
