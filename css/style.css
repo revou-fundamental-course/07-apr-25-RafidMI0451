@@ -1,7 +1,7 @@
 .main-header
     {
         display: flex;
-        background-color: lightskyblue; 
+        background-color: lightskyblue;
         border: 3px solid;
         border-color: tomato;
     }
@@ -10,18 +10,37 @@
     {
         height: 100px;
         width: 100px;
-        background-image: url(https://picsum.photos/200/300.webp);
+        background-image: url(https://picsum.photos/1080);
         background-size: cover;
         background-position: center;
         border-radius: 50%;
         margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        outline-style: dashed;
+        outline-color: tomato;
+        outline-offset: 3px;
+        border: 5px solid black;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+    }
+
+    nav>a {
+        text-decoration: none;
+        color: black;
+        border: 3px solid;
+        padding: 5px;
     }
 
 .banner-image
     {
         width: 1366px;
         height: 768px;
-        background-image: url(https://picsum.photos/200/300.webp);
+        background-image: url(https://https://picsum.photos/1920/1080://p);
         background-size: cover;
         background-position: center;
         margin: auto;
