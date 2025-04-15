@@ -46,11 +46,21 @@
             </header>
 
             <!--Banner Content*-->
-            <div class="banner-image"></div>
+            <div class="slider">
+                <div class="slides">
+                    <img class="slide" src="assets/images/city-park-blue-sky-with-downtown-skyline-background.jpg" alt="Image #1">
+                    <img class="slide" src="assets/images/forest-seen-from-mountain.jpg" alt="Image #2">
+                    <img class="slide" src="assets/images/wooden-terrace-beautiful-yellow-flower-field-mountain-blue-sky-landscape.jpg" alt="Image #3">
+                </div>
+                <button class="prev" onclick="prevSlide()">&#10094</button>
+                <button class="next" onclick="nextSlide()">&#10095</button>
+            </div>
 
             <!-- Banner Text-->
              <article>
 
+                <p style="font-size: 18px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur ullam iste quo vero itaque. Impedit neque est asperiores rem. Culpa consequatur a inventore sit distinctio enim aliquam placeat recusandae deleniti?</p>
+                <p style="font-size: 18px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur ullam iste quo vero itaque. Impedit neque est asperiores rem. Culpa consequatur a inventore sit distinctio enim aliquam placeat recusandae deleniti?</p>
                 <p style="font-size: 18px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur ullam iste quo vero itaque. Impedit neque est asperiores rem. Culpa consequatur a inventore sit distinctio enim aliquam placeat recusandae deleniti?</p>
 
              </article>
@@ -62,21 +72,85 @@
         <br>
 
         <!--Our Profile Section-->
-        <section id="our-profile-section"></section>
+        <section id="our-profile-section">
+
+            <h1>Our Headquarters</h1>
+
+            <div id="img-jkt"></div>
+            <div id="img-bdg"></div>
+            <div id="img-sby"></div>
+
+        </section>
 
         <br>
         <hr>
         <br>
 
         <!--Portfolio Section-->
-        <section id="portfolio-section"></section>
+        <section id="portfolio-section">
+
+            <h1>Portfolio</h1>
+
+        </section>
 
         <br>
         <hr>
         <br>
 
         <!--Message Section-->
-        <section id="message-section"></section>
+        <section id="message-section">
+
+            <h1>Message Us</h1>
+
+            <form action="" method="post" enctype="multipart/form-data">
+
+                <ul style="list-style-type: none;">
+                    <li>
+                        <label for="username">Nama:</label>
+                        <br>
+                        <input type="text" id="username" placeholder="Nama Anda" minlength="8" maxlength="16" required>
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <label for="bday">Tanggal Lahir:</label>
+                        <br>
+                        <input type="date" id="bday" required>
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <label for="gender">Jenis Kelamin:</label>
+                        <br>
+                        <input type="radio" id="male" name="gender" required>
+                        <label for="male">Laki-Laki</label>
+                        <br>
+                        <input type="radio" id="female" name="gender" required>
+                        <label for="female">Perempuan</label>
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <label for="comment">Comment:</label>
+                        <br>
+                        <textarea placeholder="Ketik pesan disini." id="comment" rows="3" cols="25"></textarea>
+                    </li>
+
+                    <br>
+
+                    <li>
+                        <input type="submit">
+                <input type="reset">
+                    </li>
+
+                </ul>
+        
+             </form>
+
+        </section>
 
     </main>
 
