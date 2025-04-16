@@ -20,3 +20,17 @@ function prevSlide(){
 function nextSlide(){
 
 }
+
+
+
+
+
+
+
+// Validate Form
+
+function validateForm() {
+    console.log("Form Validattion started");
+    document.getElementById("comment").innerHTML;
+
+}
